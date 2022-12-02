@@ -1,3 +1,7 @@
+{% extends 'base/main.html' %}
+
+{% block content %}
+
 <a href = "{% url 'tasks' %}">Go Back</a>
 
 
@@ -7,3 +11,6 @@
     <input type="submit" value="Delete"/>
 
 </form>
+{% comment %} {% extends 'base/main.html' %} {% endcomment %}
+
+{% endblock content %}
